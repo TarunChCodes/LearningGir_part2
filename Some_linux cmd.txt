@@ -1,0 +1,4 @@
+1. $ mkdir folder_name     -> This command is used to create a folder(directory)..
+2. $ touch "file_name.ext" -> to create a new file..
+3. $ ls			   -> To list all file and folder inside a directory..
+4. $ ls -a  		   -> To list all hiden file and folder inside a directory..

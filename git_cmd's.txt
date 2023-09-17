@@ -1,0 +1,23 @@
+1. $ git init     -> To initialize a new git repository..
+
+	# Now add some files and stuff.. Make some projects, add new feature to existing ones. enojoy it...
+	# These files are untracked...
+	# Now you have to add those file that you just create or those in which made any changes...
+	
+2. $ git add "file_name.ext" -> to add a single file..
+   $ git add ./-A 	     -> to add all files in one go..
+
+	# After running add cmd these file were get staged...
+	# Now we need to run commit cmd..
+
+3. $ git commit                       -> This cmd will prompt a default editor and ask for a commit message.. 	
+					 Esc key and after that 'I' for insert mode..
+					 Esc after that ':wq' to save and exit from the editor..
+
+   $ git commit -a		      -> This cmd is used to commit the snapshots of all changes. 
+					 Only consider already added files in Git. It will not commit the newly 					 created files.
+   $ git commit -am "Commit message." -> Its is similar as pervious cmd except it takes msg in cmd itself.
+   $ git commit -m "Commit message."  -> This cmd commit all the changes/additionalof file done by user with msg..
+  
+   $ git log -> To see all the commits history...		
+4. 
