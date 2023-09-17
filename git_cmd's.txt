@@ -15,7 +15,7 @@
 					 Esc after that ':wq' to save and exit from the editor..
 
    $ git commit -a		      -> This cmd is used to commit the snapshots of all changes. 
-					 Only consider already added files in Git. It will not commit the newly 					 created files.
+					 Only consider already added files in Git. It will not commit the newly created files.
    $ git commit -am "Commit message." -> Its is similar as pervious cmd except it takes msg in cmd itself.
    $ git commit -m "Commit message."  -> This cmd commit all the changes/additionalof file done by user with msg..
   
